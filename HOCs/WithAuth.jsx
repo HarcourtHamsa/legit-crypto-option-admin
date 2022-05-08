@@ -11,7 +11,6 @@ const WithAuth = (Component) => {
       // if there is no token, redirect to login
       if (!token) {
         router.replace("/");
-        return null;
       }
 
       return (
