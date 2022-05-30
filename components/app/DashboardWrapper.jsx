@@ -36,8 +36,7 @@ import {
 } from "react-icons/fi";
 import { IconType } from "react-icons";
 import { ReactText } from "react";
-
-import { SiEclipseche } from "react-icons/si";
+import { FiCodesandbox } from "react-icons/fi";
 import { BiHomeSmile } from "react-icons/bi";
 import helpers from "../../helpers";
 import { useRouter } from "next/router";
@@ -92,7 +91,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
       {...rest}
     >
       <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
-        <SiEclipseche size={40} color="#4299e1" />
+        <FiCodesandbox size={40} color="#4299e1" />
         <CloseButton display={{ base: "flex", md: "none" }} onClick={onClose} />
       </Flex>
       {LinkItems.map((link) => (
@@ -165,7 +164,7 @@ const MobileNav = ({ onOpen, ...rest }) => {
         icon={<FiMenu size={25} color="white" />}
       />
 
-      <SiEclipseche size={40} color="white" />
+      <FiCodesandbox size={40} color="white" />
 
       <HStack spacing={{ base: "0", md: "6" }}>
         <IconButton
