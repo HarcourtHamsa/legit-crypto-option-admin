@@ -19,7 +19,7 @@ import Head from "next/head";
 import FloatingButton from "../components/FloatingButton";
 import { useRouter } from "next/router";
 import { useFormik } from "formik";
-import { SiEclipseche } from "react-icons/si";
+import { FiCodesandbox } from "react-icons/fi";
 import helpers from "../helpers";
 
 import { ToastContainer, toast } from "react-toastify";
@@ -84,7 +84,7 @@ export default function Login() {
 
         <Stack spacing={4} mx={"auto"} w={"lg"} py={12} px={6}>
           <Stack align={"center"}>
-            <SiEclipseche size={40} color="#4299e1" />
+            <FiCodesandbox size={40} color="#4299e1" />
           </Stack>
           <Box
             rounded={"md"}
